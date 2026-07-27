@@ -406,7 +406,7 @@ a {
 .process-step .step-number {
   font-family: var(--font-heading);
   font-size: 3rem;
-  color: rgba(140, 29, 36, 0.3);
+  color: rgba(140, 29, 36, 0.6);
   position: absolute;
   top: 16px;
   right: 24px;
@@ -555,7 +555,7 @@ a {
   font-family: var(--font-heading);
   font-size: 2.5rem;
   font-weight: 700;
-  color: rgba(140, 29, 36, 0.12);
+  color: rgba(140, 29, 36, 0.4);
   line-height: 1;
   margin-bottom: 12px;
   display: block;
@@ -615,11 +615,11 @@ a {
 .contact-form input,
 .contact-form textarea {
   padding: 14px 16px;
-  border: 1px solid var(--border-subtle);
+  border: 1.5px solid #D5CDC5;
   border-radius: var(--radius-sm);
   font-family: var(--font-body);
-  font-size: 0.9rem;
-  background: var(--bg-card-white);
+  font-size: 0.95rem;
+  background: #FAF8F5;
   transition: border-color var(--transition);
   outline: none;
 }
@@ -864,11 +864,11 @@ a {
 .form-group input,
 .form-group textarea {
   padding: 14px 16px;
-  border: 1px solid var(--border-subtle);
+  border: 1.5px solid #D5CDC5;
   border-radius: var(--radius-sm);
   font-family: var(--font-body);
-  font-size: 0.9rem;
-  background: var(--bg-card-white);
+  font-size: 0.95rem;
+  background: #FAF8F5;
   transition: border-color var(--transition);
   outline: none;
 }
