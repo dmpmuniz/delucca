@@ -3,9 +3,9 @@
   --color-secondary-terracotta: #C44D38;
   --color-brand-charcoal: #2A2C2E;
   --color-technical-gray: #3D4348;
-  --bg-page-warm: #FAF8F5;
-  --bg-card-white: #FAF8F5;
-  --border-subtle: #E2DDD5;
+  --bg-page-warm: #EDE4DA;
+  --bg-card-white: #F3E9DF;
+  --border-subtle: #DED2C6;
   --bg-footer-dark: #1E2022;
   --font-heading: 'Playfair Display', Georgia, serif;
   --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
@@ -29,7 +29,8 @@ html {
 
 body {
   font-family: var(--font-body);
-  background: var(--bg-page-warm);
+  background: linear-gradient(180deg, #F7EDE3 0%, #F3E9DF 20%, #EDE4DA 50%, #EBE1D7 80%, #E5DBD1 100%);
+  background-attachment: fixed;
   color: var(--color-brand-charcoal);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -59,7 +60,7 @@ a {
   left: 0;
   right: 0;
   z-index: 100;
-  background: #FAF8F5;
+  background: var(--bg-page-warm);
   border-bottom: 1px solid var(--border-subtle);
   transition: var(--transition);
 }
