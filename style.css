@@ -79,13 +79,11 @@ a {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 2px 0;
 }
 
 .logo img {
-  height: 100%;
+  height: 64px;
   width: auto;
-  object-fit: contain;
 }
 
 .nav {
