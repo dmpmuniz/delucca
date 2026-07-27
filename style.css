@@ -2,9 +2,9 @@
   --color-primary-dark-red: #8C1D24;
   --color-secondary-terracotta: #C44D38;
   --color-brand-charcoal: #2A2C2E;
-  --color-technical-gray: #5C6268;
+  --color-technical-gray: #3D4348;
   --bg-page-warm: #FAF8F5;
-  --bg-card-white: #FFFFFF;
+  --bg-card-white: #FAF8F5;
   --border-subtle: #E2DDD5;
   --bg-footer-dark: #1E2022;
   --font-heading: 'Playfair Display', Georgia, serif;
@@ -232,10 +232,10 @@ a {
 .hero p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: 40px;
   max-width: 540px;
-  text-shadow: 0 1px 20px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 20px rgba(0,0,0,0.5);
 }
 
 .btn {
@@ -610,7 +610,7 @@ a {
   font-size: 0.85rem;
   line-height: 1.7;
   margin-top: 16px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer h4 {
@@ -624,7 +624,7 @@ a {
   display: block;
   font-size: 0.85rem;
   margin-bottom: 8px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   transition: color var(--transition);
 }
 
@@ -639,7 +639,7 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .footer-social {
@@ -706,8 +706,8 @@ a {
   display: inline-block;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85rem;
-  color: var(--color-technical-gray);
-  background: rgba(92, 98, 104, 0.08);
+  color: var(--color-brand-charcoal);
+  background: rgba(61, 67, 72, 0.08);
   padding: 4px 12px;
   border-radius: var(--radius-sm);
 }
