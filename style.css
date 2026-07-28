@@ -25,10 +25,12 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light;
 }
 
 body {
   font-family: var(--font-body);
+  font-size-adjust: from-font;
   background: var(--bg-page-warm);
   color: var(--color-brand-charcoal);
   line-height: 1.6;
@@ -225,6 +227,7 @@ a {
   color: #fff;
   margin-bottom: 24px;
   font-weight: 600;
+  text-wrap: balance;
   text-shadow: 0 2px 30px rgba(0,0,0,0.5);
 }
 
@@ -309,6 +312,7 @@ a {
   line-height: 1.2;
   color: var(--color-brand-charcoal);
   margin-bottom: 16px;
+  text-wrap: balance;
 }
 
 .section p {
@@ -416,9 +420,10 @@ a {
 
 .process-step h3 {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
-  margin-bottom: 12px;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
   color: var(--color-brand-charcoal);
+  text-wrap: balance;
 }
 
 .process-step p {
@@ -521,7 +526,9 @@ a {
 .service-card h3 {
   font-family: var(--font-heading);
   font-size: 1.15rem;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  color: var(--color-primary-dark-red);
+  text-wrap: balance;
 }
 
 .service-card p {
@@ -711,6 +718,28 @@ a {
   opacity: 1;
 }
 
+.footer-meta {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 16px;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-meta a {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0;
+}
+
+.footer-meta a:hover {
+  color: var(--color-secondary-terracotta);
+}
+
 @media (max-width: 768px) {
   .footer-grid {
     grid-template-columns: 1fr;
@@ -719,6 +748,10 @@ a {
   .footer-bottom {
     flex-direction: column;
     gap: 12px;
+    text-align: center;
+  }
+  .footer-meta {
+    flex-direction: column;
     text-align: center;
   }
 }
@@ -733,8 +766,9 @@ a {
 .page-header h1 {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 4vw, 3rem);
-  color: var(--color-brand-charcoal);
-  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 600;
+  text-wrap: balance;
 }
 
 .page-header p {
@@ -793,8 +827,10 @@ a {
 
 .team-card h3 {
   font-family: var(--font-heading);
-  font-size: 1.3rem;
+  font-size: 1.25rem;
+  color: var(--color-brand-charcoal);
   margin-bottom: 4px;
+  text-wrap: balance;
 }
 
 .team-role {
