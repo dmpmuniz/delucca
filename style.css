@@ -710,7 +710,8 @@ a {
 .footer-social img {
   width: 20px;
   height: 20px;
-  opacity: 0.4;
+  opacity: 0.5;
+  filter: brightness(0) invert(1);
   transition: opacity var(--transition);
 }
 
