@@ -2,13 +2,13 @@
   var h = 'dmpmuniz.github.io';
   if (location.hostname !== h && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
     console.log('%c⚠ Site não autorizado', 'font-size:1.2rem;color:#C44D38;font-weight:bold');
-    console.log('Este site foi criado por Daniel Muniz — https://github.com/dmpmuniz');
+    console.log('Este site foi criado por Daniel Muniz — https://dmpmuniz.github.io/homepage/');
   }
 })();
 
 document.addEventListener('DOMContentLoaded', function(){
   console.log('%cDe Lucca Arquitetura | Construção', 'font-size:1.5rem;color:#8C1D24;font-weight:bold');
-  console.log('%cCriado por Daniel Muniz — https://github.com/dmpmuniz', 'font-size:0.9rem;color:#C44D38');
+  console.log('%cCriado por Daniel Muniz — https://dmpmuniz.github.io/homepage/', 'font-size:0.9rem;color:#C44D38');
   console.log('%cProva de conceito — produto não final, sujeito a aprovação do cliente.', 'font-size:0.8rem;color:#888');
 
   document.addEventListener('contextmenu', function(e){
